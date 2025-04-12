@@ -17,10 +17,8 @@ Desenvolva um programa em Java para simular um jogo de cartas simples, como o jo
 
 ## Partes pendentes
 
-5. Implemente o jogo em duplas (+0,25)
 6. Implemente o jogo utilizando sockets (+0,25).
-7. Implemente a possibilidade de trucar (valendo 3, 6, 9 ou 12 pontos) (0,25).
-8. Implementar Lógica para "Embuxar" na terceira rodada.
+8. Implemente a possibilidade de trucar (valendo 3, 6, 9 ou 12 pontos) (0,25).
 
 ## Partes completadas
 
@@ -28,4 +26,6 @@ Desenvolva um programa em Java para simular um jogo de cartas simples, como o jo
 2. Baralho: (1,0);
 3. Jogador: (1,0).
 4. Jogo: (1,0).
-5. Implemente a lógica para ‘Manilha’: (0,25).
+5. 5. Implemente o jogo em duplas (+0,25)
+7. Implemente a lógica para ‘Manilha’: (0,25).
+9. Implementar Lógica para "Embuxar" na terceira rodada.
