@@ -87,7 +87,10 @@ public class App {
                     jogo.definirDuplaGanhadoraDoPonto(jogo.getTime2(), jogo.getPontosRodada());
                     break;
                 }
+
                 jogo.limparMesa();
+                jogo.limparJogadasNaMesa();
+
             }
 
         }

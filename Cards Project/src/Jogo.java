@@ -160,6 +160,7 @@ public class Jogo {
         }
         time1.setPontosRodada(0);
         time2.setPontosRodada(0);
+        limparJogadasNaMesa();
         limparMesa();
         time1.setFezPrimeira(false);
         time2.setFezPrimeira(false);
@@ -173,6 +174,10 @@ public class Jogo {
         for (Jogada jogada : jogadasNaMesa) {
             System.out.println(jogada);
         }
+    }
+
+    public void limparJogadasNaMesa() {
+        jogadasNaMesa.clear();
     }
 
     public boolean jogoAcabou() {
