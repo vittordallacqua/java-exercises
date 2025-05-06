@@ -1,6 +1,6 @@
 -- Criação do banco de dados
-CREATE DATABASE IF NOT EXISTS banco_java;
-USE banco_java;
+CREATE DATABASE IF NOT EXISTS java_bank;
+USE java_bank;
 
 -- Tabela de clientes
 CREATE TABLE IF NOT EXISTS clientes (
@@ -15,3 +15,4 @@ CREATE TABLE IF NOT EXISTS contas (
     saldo DOUBLE DEFAULT 0,
     FOREIGN KEY (cliente_id) REFERENCES clientes(id)
 );
+

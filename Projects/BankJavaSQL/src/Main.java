@@ -16,6 +16,7 @@ public class Main {
                 System.out.println("4. Listar Contas de um Cliente");
                 System.out.println("5. Depositar");
                 System.out.println("6. Sacar");
+                System.out.println("7. Excluir Conta");
                 System.out.println("0. Sair");
                 System.out.print("\nSelecione uma opção: ");
                 int opcao = sc.nextInt();
@@ -45,6 +46,7 @@ public class Main {
                         for (Conta conta : contas)
                             System.out.println("Conta ID: " + conta.getId() + " | Saldo: R$ " + conta.getSaldo());
                         break;
+                    
                     case 5:
                         System.out.print("ID da conta: ");
                         int contaId = sc.nextInt();
@@ -59,6 +61,11 @@ public class Main {
                         valor = sc.nextDouble();
                         contaDAO.sacar(contaId, valor);
                         break;
+                    case 7:
+                        System.out.print("ID do cliente: ");
+                        clienteId = sc.nextInt();                       
+                        contaDAO.deletarCliente(clienteId);
+                        break;    
                     default:
                         sc.close();
                         System.out.println("Opção inválida.");

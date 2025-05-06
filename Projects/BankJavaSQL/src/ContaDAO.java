@@ -32,6 +32,18 @@ public class ContaDAO {
         stmt.executeUpdate();
     }
 
+    public void deletarCliente(int clienteId) throws SQLException {
+        String excluirContas = "DELETE FROM contas WHERE cliente_id = ?";
+        PreparedStatement stmtContas = conn.prepareStatement(excluirContas);
+        stmtContas.setInt(1, clienteId);
+        stmtContas.executeUpdate();
+    
+        String excluirCliente = "DELETE FROM clientes WHERE id = ?";
+        PreparedStatement stmtCliente = conn.prepareStatement(excluirCliente);
+        stmtCliente.setInt(1, clienteId);
+        stmtCliente.executeUpdate();
+    }  
+
     public List<Conta> listarContasDoCliente(int clienteId) throws SQLException {
         List<Conta> lista = new ArrayList<>();
         String sql = "SELECT * FROM contas WHERE cliente_id = ?";
