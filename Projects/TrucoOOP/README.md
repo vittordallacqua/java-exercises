@@ -1,8 +1,8 @@
-## Truc in Java
+## 🃏 Truc in Java
 
 Semester project for the Object-Oriented Programming course in Java.
 
-## Proposal
+## 📝 Proposal
 
 Develop a Java program to simulate a simple card game, such as "Truco". Implement the following classes:
 
@@ -15,12 +15,12 @@ Develop a Java program to simulate a simple card game, such as "Truco". Implemen
 7. Implement the 'Manilha' logic (+0.25)
 8. Implement the option to “trucar” (raise the stakes to 3, 6, 9, or 12 points) (+0.25)
 
-## Pending parts
+## ⚠️ Pending parts
 
 6. Implement the game using sockets (+0.25)
 8. Implement the option to "trucar" (raise the stakes to 3, 6, 9, or 12 points) (+0.25)
 
-## Finished parts
+## ✅ Finished parts
 
 1. Card: (1,0)
 2. Deck: (1,0)
