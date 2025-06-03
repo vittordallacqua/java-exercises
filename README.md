@@ -2,4 +2,5 @@
 
 ### 🃏 <a href="https://github.com/vittordallacqua/SoftwareDevelpment-OOP/tree/master/Projects/TrucoOOP"> Cards Project </a> 
 ### 🏛️ <a href="https://github.com/vittordallacqua/SoftwareDevelpment-OOP/tree/master/Projects/BankJavaSQL"> Bank Management System </a> 
+### ♟️ <a href="https://github.com/vittordallacqua/SoftwareDevelpment-OOP/tree/master/Projects/ChessGame"> Chess Game </a>
 
