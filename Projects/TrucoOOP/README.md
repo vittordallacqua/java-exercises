@@ -1,31 +1,30 @@
-## Truco em Java
+## Truc in Java
 
-Projeto semestral da matéria de programação orientada a objetos em java.
+Semester project for the Object-Oriented Programming course in Java.
 
-## Proposta
+## Proposal
 
-Desenvolva um programa em Java para simular um jogo de cartas simples, como o jogo de "Truco". Implemente as seguintes classes:
+Develop a Java program to simulate a simple card game, such as "Truco". Implement the following classes:
 
-1. Carta: Representa uma carta com um valor (A,2,3,4,5,6,7, Q, J, K) e um naipe (ouros, copas, espadas, paus) (1,0).
-2. Baralho: Representa um baralho de cartas, contendo 48 cartas diferentes. Deve possui o método embaralhar()(1,0);
-3. Jogador: Representa um jogador no jogo, capaz de receber e jogar cartas na mesa. Deve uma mão de 3 cartas. Um dos atributos deve ser a pontuação (1,0).
-4. Jogo: Controla a lógica do jogo, incluindo distribuição de cartas, turno dos jogadores e determinação do vencedor(1,0).
-5. Implemente o jogo em duplas (+0,25)
-6. Implemente o jogo utilizando sockets (+0,25).
-7. Implemente a lógica para ‘Manilha’ (0,25);
-8. Implemente a possibilidade de trucar (valendo 3, 6, 9 ou 12 pontos) (0,25).
+1. Card: Represents a playing card with a value (A, 2, 3, 4, 5, 6, 7, Q, J, K) and a suit (diamonds, hearts, spades, clubs). (1.0)
+2. Deck: Represents a deck of cards containing 48 different cards. Must include a shuffle() method. (1.0)
+3. Player: Represents a player in the game, capable of receiving and playing cards on the table. Should have a hand of 3 cards. One of the attributes must be the score. (1.0)
+4. Game: Controls the game logic, including card distribution, player turns, and winner determination. (1.0)
+5. Implement team-based play (+0.25)
+6. Implement the game using sockets (+0.25)
+7. Implement the 'Manilha' logic (+0.25)
+8. Implement the option to “trucar” (raise the stakes to 3, 6, 9, or 12 points) (+0.25)
 
-## Partes pendentes
+## Pending parts
 
-6. Implemente o jogo utilizando sockets (+0,25).
-8. Implemente a possibilidade de trucar (valendo 3, 6, 9 ou 12 pontos) (0,25).
+6. Implement the game using sockets (+0.25)
+8. Implement the option to "trucar" (raise the stakes to 3, 6, 9, or 12 points) (+0.25)
 
-## Partes completadas
+## Finished parts
 
-1. Carta: (1,0);
-2. Baralho: (1,0);
-3. Jogador: (1,0).
-4. Jogo: (1,0).
-5. 5. Implemente o jogo em duplas (+0,25)
-7. Implemente a lógica para ‘Manilha’: (0,25).
-9. Implementar Lógica para "Embuxar" na terceira rodada.
+1. Card: (1,0)
+2. Deck: (1,0)
+3. Player: (1,0)
+4. Game: (1,0)
+5. Implement team-based play (+0.25)
+7. Implement the 'Manilha' logic (+0.25)
