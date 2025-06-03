@@ -1,10 +1,10 @@
-## Chess Game in Java (Swing + MVC)
+## ♟️ Chess Game in Java (Swing + MVC)
 
 This project aims to develop a chess game in Java with a graphical interface using Swing, structured according to the MVC (Model-View-Controller) architecture. The game will follow simplified rules — excluding castling, check, and checkmate — and will include persistence of the game state and player rankings.
 
-## Requirements
+## 📝 Requirements
 
-### Model
+### 📐Model
    
 1. Representation of an 8x8 board with standard chess pieces.
 2. Basic logic for piece movement (no need to validate all complex rules).
@@ -12,7 +12,7 @@ This project aims to develop a chess game in Java with a graphical interface usi
 4. Methods to save and load the game state from a file.
 5. Store and manage player rankings (scores, wins).
 
-### Graphical Interface (View)
+### 🔍 Graphical Interface (View)
 
 1. Implement a graphical interface using Java Swing.
 2. Display the board using an 8x8 grid of buttons.
@@ -21,7 +21,7 @@ This project aims to develop a chess game in Java with a graphical interface usi
 5. Visual highlight for the selected square.
 6. Show messages to the user (e.g., invalid move, current turn, game over).
 
-### Controller
+### 🕹️ Controller
 
 1. Handle interface events (clicks).
 2. Control the movement logic by integrating View and Model.
@@ -30,7 +30,7 @@ This project aims to develop a chess game in Java with a graphical interface usi
 5. Validate basic moves and prevent invalid actions.
 6. Automatically save the state after each move.
 
-## Technical Requirements
+## 🛠️ Technical Requirements
 
 1. Language: Java 8 or higher.
 2. Graphical interface: Java Swing.
@@ -38,14 +38,14 @@ This project aims to develop a chess game in Java with a graphical interface usi
 4. Code organized into packages (model, view, controller).
 5. State persistence and ranking using files (serialization or text)
 
-## Deliverables
+## 📦 Deliverables
 
 1. Complete and well-commented source code.
 2. Clear instructions for compilation and execution.
 3. Generated persistence files (e.g., game.ser, ranking.json).
 4. Document explaining the implemented MVC design.
 
-## Notes
+## ✍️ Notes
 1. It is not necessary to implement complex rules such as castling, check, or checkmate.
 2. The focus is on clear structure, functional interface, and persistence.
 3. The ranking can be simple, storing the player's name and number of victories.
