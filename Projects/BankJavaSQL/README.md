@@ -13,7 +13,6 @@ Simulate basic banking operations such as account creation, deposit, withdrawal,
 - **Language:** Java  
 - **Paradigm:** Object-Oriented Programming (OOP)  
 - **Database:** MySQL (via JDBC)  
-- **IDE Recommended:** Eclipse or IntelliJ IDEA  
 
 ---
 
