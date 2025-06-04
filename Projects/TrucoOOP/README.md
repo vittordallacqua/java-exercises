@@ -1,30 +1,115 @@
-## 🃏 Truc in Java
+# 🃏 TrucoOOP
 
-Semester project for the Object-Oriented Programming course in Java.
+A Java-based implementation of the traditional Brazilian card game **Truco**, emphasizing Object-Oriented Programming (OOP) principles.
 
-## 📝 Proposal
+---
 
-Develop a Java program to simulate a simple card game, such as "Truco". Implement the following classes:
+## 🧩 Project Overview
 
-1. Card: Represents a playing card with a value (A, 2, 3, 4, 5, 6, 7, Q, J, K) and a suit (diamonds, hearts, spades, clubs). (1.0)
-2. Deck: Represents a deck of cards containing 48 different cards. Must include a shuffle() method. (1.0)
-3. Player: Represents a player in the game, capable of receiving and playing cards on the table. Should have a hand of 3 cards. One of the attributes must be the score. (1.0)
-4. Game: Controls the game logic, including card distribution, player turns, and winner determination. (1.0)
-5. Implement team-based play (+0.25)
-6. Implement the game using sockets (+0.25)
-7. Implement the 'Manilha' logic (+0.25)
-8. Implement the option to “trucar” (raise the stakes to 3, 6, 9, or 12 points) (+0.25)
+**Purpose:**  
+Simulate the card game Truco using Java, applying OOP concepts such as encapsulation, inheritance, and polymorphism to structure the game's components and logic.
 
-## ⚠️ Pending parts
+**Technologies Used:**
+- **Language:** Java
+- **Paradigm:** Object-Oriented Programming (OOP)
 
-6. Implement the game using sockets (+0.25)
-8. Implement the option to "trucar" (raise the stakes to 3, 6, 9, or 12 points) (+0.25)
+---
 
-## ✅ Finished parts
+## 🗂️ Project Structure
 
-1. Card: (1,0)
-2. Deck: (1,0)
-3. Player: (1,0)
-4. Game: (1,0)
-5. Implement team-based play (+0.25)
-7. Implement the 'Manilha' logic (+0.25)
+```
+TrucoOOP/
+├── src/
+│ ├── model/
+│ │ ├── Card.java
+│ │ ├── Deck.java
+│ │ ├── Player.java
+│ │ └── Game.java
+│ └── Main.java
+├── resources/
+│ └── game_rules.txt
+└── README.md
+```
+
+### 💠 Main Components
+
+- **`model/Card.java`**  
+  Represents a playing card with attributes like suit and rank.
+
+- **`model/Deck.java`**  
+  Manages the deck of cards, including shuffling and dealing.
+
+- **`model/Player.java`**  
+  Defines player attributes and actions, such as playing a card or calling "Truco".
+
+- **`model/Game.java`**  
+  Contains the core game logic, managing rounds, scorekeeping, and enforcing rules.
+
+- **`Main.java`**  
+  Entry point of the application, initializing the game and handling user interactions.
+
+- **`resources/game_rules.txt`**  
+  Provides a textual description of the game's rules and instructions.
+
+---
+
+## 🎮 Gameplay Features
+
+- **Card Dealing:**  
+  Randomly shuffles and deals cards to players at the start of each round.
+
+- **Turn-Based Play:**  
+  Players take turns playing cards, with the game determining the winner of each hand.
+
+- **Truco Calls:**  
+  Implements the "Truco" challenge mechanism, allowing players to raise the stakes.
+
+- **Score Tracking:**  
+  Keeps track of each player's score, determining the winner when a player reaches the target score.
+
+- **Rule Enforcement:**  
+  Ensures that all game rules are followed, including valid card plays and responses to "Truco" calls.
+
+---
+
+## 🧪 How to Run the Project
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/vittordallacqua/SoftwareDevelpment-OOP.git
+   ```
+
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd SoftwareDevelpment-OOP/Projects/TrucoOOP
+   ```
+
+3. **Compile the Java Files:**
+   ```bash
+   javac src/**/*.java
+   ```
+
+4. **Run the Application:**
+   ```bash
+   java -cp src Main
+   ```
+
+---
+
+## 📌 Technical Notes
+
+- The project is structured using OOP principles, with separate classes for different game components, promoting modularity and reusability.
+
+- The game interacts with the user via the console, prompting for inputs and displaying game states.
+
+- The codebase is designed to be extensible, allowing for future enhancements such as GUI integration or networked multiplayer support.
+
+---
+
+## 📎 License
+
+This project is intended for educational purposes and does not have a specified license.
+
+
+
+
