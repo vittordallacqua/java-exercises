@@ -1,4 +1,4 @@
-# 🃏 TrucoOOP
+# 🃏 Truc Game in Java
 
 A Java-based implementation of the traditional Brazilian card game **Truco**, emphasizing Object-Oriented Programming (OOP) principles.
 
@@ -108,11 +108,4 @@ TrucoOOP/
 
 ## 📎 License
 
-This project is intended for educational purposes and does not have a specified license.
-
- 
-
-
-
-
-
+This project is licensed under the MIT License.
