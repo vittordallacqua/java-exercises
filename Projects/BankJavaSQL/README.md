@@ -117,10 +117,4 @@ java -cp .:lib/mysql-connector-java-x.x.x.jar src/Main
 ---
 
 # 📎 License
-This project is for educational purposes and is not licensed for production use.
-
-
-
-
-
-
+This project is licensed under the MIT License.
