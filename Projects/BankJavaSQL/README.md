@@ -18,8 +18,26 @@ Simulate basic banking operations such as account creation, deposit, withdrawal,
 
 ## 🗂️ Project Structure
 
+```
+BankJavaSQL/
+├── src/
+│ ├── model/
+│ │ └── Account.java
+│ ├── dao/
+│ │ └── AccountDAO.java
+│ ├── service/
+│ │ └── BankService.java
+│ └── Main.java
+├── resources/
+│ └── db.properties
+├── lib/
+│ └── mysql-connector-java-x.x.x.jar
+└── README.md
+```
 
-### Main Components
+---
+
+### 💠 Main Components
 
 - **`model/Account.java`**  
   Defines the `Account` class with fields like account number, owner name, and balance.
