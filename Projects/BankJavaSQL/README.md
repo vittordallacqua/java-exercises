@@ -35,8 +35,6 @@ BankJavaSQL/
 └── README.md
 ```
 
----
-
 ### 💠 Main Components
 
 - **`model/Account.java`**  
