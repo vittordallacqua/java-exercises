@@ -22,5 +22,3 @@ Using VS Code:
 installed. This includes Language Support for Java™, Debugger for 
 Java, Maven for Java, Project Manager for Java, and Test Runner for 
 Java.
-
-This project is licensed under the MIT License.
