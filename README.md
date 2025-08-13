@@ -11,7 +11,7 @@ OOP concepts, such as encapsulation, inheritance, polymorphism,
 and abstraction
 
 How to run:
-   ```
+   ```bash
    > git clone https://github.com/vittordallacqua/java-exercises.git
    > cd java-exercises
    ```
